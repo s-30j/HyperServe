@@ -1,0 +1,13 @@
+{
+  "name": "secure-download-server",
+  "version": "2.0.0",
+  "description": "Secure HTTPS download server with SSL, Redis cache & cluster",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ioredis": "^5.4.1"
+  }
+}
